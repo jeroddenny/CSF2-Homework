@@ -16,7 +16,7 @@ namespace TesterProgram
 
                 s1.FirstName = "Samus";
                 s1.LastName = "Aran";
-                s1.StudentID = "SRan";
+                s1.StudentID = "SAran";
                 s1.GPA = 3.5f;
             
 
@@ -32,7 +32,13 @@ namespace TesterProgram
             Console.WriteLine(v1);
 
             //Login
+            Login l1 = new Login();
+            l1.UserName = "SAran";
+            l1.PassWord = "Metroid";
 
+            Console.WriteLine(l1);
+
+            
 
         }//end Main()
     }//end class

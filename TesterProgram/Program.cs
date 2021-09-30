@@ -102,6 +102,18 @@ namespace TesterProgram
             #endregion
 
 
+            #region Book
+
+            Book b1 = new Book();
+            b1.Title = "The Lord of the Rings";
+            b1.Author = "J.R.R Tolkien";
+            b1.NumberOfPages = 1178;
+
+            Console.WriteLine(b1);
+            Console.WriteLine("");
+
+            #endregion
+
         }//end Main()
     }//end class
 }//end namespace

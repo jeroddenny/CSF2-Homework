@@ -10,6 +10,8 @@ namespace TesterProgram
     {
         static void Main(string[] args)
         {
+            //Student
+
             Student s1 = new Student();
 
                 s1.FirstName = "Samus";
@@ -19,6 +21,18 @@ namespace TesterProgram
             
 
             Console.WriteLine(s1);
+
+            // Vehicle
+            Vehicle v1 = new Vehicle();
+            v1.Make = "Hyundai";
+            v1.Model = "Tucson";
+            v1.Year = 2017;
+            v1.Weight = 3500f;
+
+            Console.WriteLine(v1);
+
+            //Login
+
 
         }//end Main()
     }//end class

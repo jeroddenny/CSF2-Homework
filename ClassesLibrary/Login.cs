@@ -7,34 +7,34 @@ namespace ClassesLibrary
     public class Login
     {
         //fields
-        private string _userName;
-        private string _passWord;
+        private string _username;
+        private string _password;
 
         //properties
-        public string UserName
+        public string Username
         {
-            get { return _userName; }
-            set { _userName = value; }
+            get { return _username; }
+            set { _username = value; }
         }
 
-        public string PassWord
+        public string Password
         {
-            get { return _passWord; }
-            set { _passWord = value; }
+            get { return _password; }
+            set { _password = value; }
         }
 
 
         //constructors
         public Login() { }
-        public Login(string userName, string passWord)
+        public Login(string username, string password)
         {
-            UserName = _userName;
-            PassWord = _passWord;
+            Username = username;
+            Password = password;
         }
         //methods
         public override string ToString()
         {
-         return string.Format($"Username : {UserName} \nPassword: {PassWord}");
+         return string.Format($"Username : {Username} \nPassword: {Password}");
         }
 
     }

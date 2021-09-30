@@ -36,19 +36,19 @@ namespace ClassesLibrary
 
         //constrctors
         public Vehicle() { }
-        public Vehicle(string Make, string Model, int Year, float weight)
+        public Vehicle(string make, string model, int year, float weight)
         {
-            Make = _make;
-            Model = _model;
-            Year = _year;
-            Weight = _weight;
+            Make = make;
+            Model = model;
+            Year = year;
+            Weight = weight;
         }
-
+        //methods
         public override string ToString()
         {
             return string.Format($"Vehicle: \nMake: {Make} \nModel: {Model} \nYear: {Year} \nWeight: {Weight};");
         }
 
-        //methods
+        
     }
 }

@@ -41,11 +41,11 @@ namespace ClassesLibrary
 
         //Constructors (ctors)
         public Student() { }
-        public Student(string firstName, string lastName, string id, float gpa)
+        public Student(string firstName, string lastName, string studentID, float gpa)
         {
             FirstName = firstName;
             LastName = lastName;
-            StudentID = _studentID;
+            StudentID = studentID;
             GPA = gpa;
         }
 

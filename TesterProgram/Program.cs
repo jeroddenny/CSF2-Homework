@@ -109,11 +109,38 @@ namespace TesterProgram
             b1.Author = "J.R.R Tolkien";
             b1.NumberOfPages = 1178;
 
+            Book b2 = new Book();
+            b2.Title = "Game of Thrones";
+            b2.Author = "George R.R. Martin";
+            b2.NumberOfPages = 694;
+
             Console.WriteLine(b1);
+            Console.WriteLine("");
+            Console.WriteLine(b2);
             Console.WriteLine("");
 
             #endregion
 
+
+            #region Library
+            List<Book> books1 = new List<Book>() { b1, b2 };
+            //books1.Add(b1);
+            //books1.Add(b2);
+
+            Library lib1 = new Library();
+            lib1.Books = books1;
+            lib1.LibraryName = "Truman Library";
+            lib1.StreetAddress = "500 W US Hwy 24";
+            lib1.City = "Independence";
+            lib1.State = "Missouri";
+            lib1.Zip = "64050";
+
+            Console.WriteLine(lib1);
+            Console.WriteLine("");
+
+
+
+            #endregion
         }//end Main()
     }//end class
 }//end namespace
